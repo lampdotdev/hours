@@ -301,7 +301,7 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <plist version="1.0"><dict>
   <key>CFBundleDevelopmentRegion</key><string>en</string>
   <key>CFBundleExecutable</key><string>Hours</string>
-  <key>CFBundleIdentifier</key><string>dev.lamp.dev.pensive-curie-69cf17.app.hours</string>
+  <key>CFBundleIdentifier</key><string>dev.lamp.dev.app.hours</string>
   <key>CFBundleName</key><string>Hours</string>
   <key>CFBundleDisplayName</key><string>Hours</string>
   <key>CFBundlePackageType</key><string>APPL</string>
@@ -325,6 +325,6 @@ cat > "$APP/Contents/Info.plist" <<PLIST
   <key>NSAppleMusicUsageDescription</key><string>Hours plays music from your library.</string>
 </dict></plist>
 PLIST
-intents Hours "$APP" "dev.lamp.dev.pensive-curie-69cf17.app.hours" Sources
+intents Hours "$APP" "dev.lamp.dev.app.hours" Sources
 codesign --force -s - "$APP"
 echo "Built $APP"
