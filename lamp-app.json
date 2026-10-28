@@ -1,0 +1,8 @@
+{
+  "app" : "1FA9D89C-7B3F-5136-9A38-9E98DC9E8CE4",
+  "description" : "Tracks the hours you work for each client and turns them into an invoice.",
+  "exportedAt" : "2026-01-01T00:00:00Z",
+  "format" : 2,
+  "name" : "Hours",
+  "platform" : "mac"
+}
